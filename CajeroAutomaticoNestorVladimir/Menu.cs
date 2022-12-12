@@ -24,14 +24,14 @@ namespace CajeroAutomaticoNestorVladimir
         #region datos de captura
         int cedula = 0; //solicitar dato por consola
         string contraseña = string.Empty; //solicitar dato por consola
-        int valorOperacion = 0; //solicitar dato por consola
+        public int valorOperacion = 0; //solicitar dato por consola
         int cajero_Id = 0; //solicitar dato por consola
         #endregion
 
         #region Variables de sesion
         public Usuario usuarioSesion = null;
         public Cuenta cuentaSesion = null;
-        Usuario usuarioNuevo = null;
+        public Usuario usuarioNuevo = null;
         Puntos puntosColombia = null;
         public int saldo = 0;
         bool precargarDatos = false;
